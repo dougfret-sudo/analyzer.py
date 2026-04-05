@@ -1,0 +1,5 @@
+unit_id,repair_cost,miles_to_service,last_service_date
+Truck-101,450.00,350,2026-03-01
+Truck-202,120.00,1200,2026-03-15
+Truck-303,890.50,150,2026-04-01
+Truck-404,0.00,5000,2026-04-04
