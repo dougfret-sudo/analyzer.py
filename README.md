@@ -1,20 +1,21 @@
-# Fleet Cost & Maintenance Analyzer 📊
 
-A Python-based **Business Intelligence (BI) Engine** designed to transform raw service logs into actionable financial insights. This tool bridges the gap between field operations (SSR Data) and the CFO’s desk.
+# Fleet Business Intelligence (BI) Engine 📊
+
+A Python-based analytics suite designed to transform raw telematics and service logs into actionable financial insights. This engine bridges the gap between field-level maintenance and executive-level cost governance.
 
 ### 🛠️ Core Analytical Logic
-*   **Maintenance Burn Rate:** Calculates real-time maintenance expenditure against revenue targets (e.g., $21M/year goals).
-*   **Predictive Service Forecasting:** Analyzes odometer trends to identify assets approaching "Critical Service Windows" before they fail in the field.
-*   **Utilization Analytics:** Designed to support a **93% Fleet Utilization** target by minimizing unscheduled downtime through data-driven scheduling.
+*   **Maintenance Burn Rate:** Monitors real-time expenditure against high-volume revenue targets (e.g., $20M+ annual goals).
+*   **Predictive Service Forecasting:** Analyzes odometer trends to identify assets approaching "Critical Service Windows" before field failure occurs.
+*   **Utilization Optimization:** Engineering logic designed to support a **93% Fleet Utilization** target by minimizing unscheduled downtime.
 
 ### 🚀 Key Technical Features
-*   **Object-Oriented Architecture:** Built using Python Classes for modularity and easy integration into existing SaaS backends.
-*   **Data Ingestion:** Optimized for processing CSV and JSON payloads exported from the **Simple Service Recorder (SSR)**.
-*   **Financial Governance:** Provides high-level summaries for EBITDA alignment and operational budgeting.
+*   **Object-Oriented Architecture:** Modular Python Classes designed for seamless integration into enterprise SaaS backends.
+*   **Universal Data Ingestion:** Optimized for processing standardized CSV and JSON payloads from mobile service recorders.
+*   **Financial Governance:** Provides EBITDA-aligned summaries for operational budgeting and audit preparation.
 
 ### 📁 File Structure
 *   `analyzer.py`: The core BI engine containing the `FleetCostAnalyzer` class.
-*   `ssr_data_sample.csv`: (Optional) Sample data to demonstrate the forecasting logic.
+*   `telematics_sample.csv`: Sample dataset demonstrating the forecasting logic.
 
 ### 🛡️ Verified Integrity
-Tested in a **hardware-isolated iMac sandbox** to ensure the logic handles "dirty data" and high-volume CSV exports without losing calculation accuracy.
+Validated in a **hardware-isolated sandbox** (iatrogenic-safe iMac partition) to ensure logic stability under high-volume data ingestion.
